@@ -1,0 +1,23 @@
+p {
+    text-align: center;
+    letter-spacing: 2px;
+}
+li {
+    text-align: center;
+    list-style: none;
+    
+}
+h1{
+    text-decoration: underline red double;
+    text-align: center;
+    font-weight: bold;
+}
+div{
+    background-color: lightblue;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+   
+    
+}

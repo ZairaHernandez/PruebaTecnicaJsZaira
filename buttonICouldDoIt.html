@@ -1,0 +1,24 @@
+<!--5. create an html file, inside with an input item with a specific id,
+// create an item, button, when the button is clicked,
+// the value of the input will change to the text "I could do it".-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer botón</title>
+</head>
+<body>
+    <h1>Zaira Hernandez Martinez</h1>
+    <span id = "parrafo">Presiona el botón</span>
+    <input type="text" id="texto" required minlength="4" maxlength="8" size="10">
+    <button onclick="mostrar()">Mostrar</button>
+    <script>
+        let mostrar = () =>{
+            document.getElementById("texto").value = "I could do it";
+        }
+    </script>
+
+</body>
+</html>
